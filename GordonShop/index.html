@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GORDON SHOP - Foodstuff Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to GORDON SHOP</h1>
+        <p>Your source for quality foodstuff.</p>
+    </header>
+
+    <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="produce">Fresh Produce</button>
+        <button class="filter-btn" data-filter="dairy">Dairy</button>
+        <button class="filter-btn" data-filter="bakery">Bakery</button>
+        <button class="filter-btn" data-filter="meat">Meats</button>
+    </div>
+
+    <div class="product-gallery">
+        
+        <div class="product-card" data-category="produce">
+            <img src="images/apples.jpg" alt="Fresh Apples">
+            <h3>Apples (Red)</h3>
+            <p>Category: Produce</p>
+            <span class="price">$2.99/lb</span>
+        </div>
+
+        <div class="product-card" data-category="dairy">
+            <img src="images/milk.jpg" alt="Fresh Milk">
+            <h3>Whole Milk (1L)</h3>
+            <p>Category: Dairy</p>
+            <span class="price">$4.50</span>
+        </div>
+
+        <div class="product-card" data-category="bakery">
+            <img src="images/bread.jpg" alt="Loaf of Bread">
+            <h3>Sourdough Loaf</h3>
+            <p>Category: Bakery</p>
+            <span class="price">$5.00</span>
+        </div>
+
+        <div class="product-card" data-category="meat">
+            <img src="images/chicken.jpg" alt="Chicken Breast">
+            <h3>Chicken Breast</h3>
+            <p>Category: Meats</p>
+            <span class="price">$8.99/lb</span>
+        </div>
+
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
