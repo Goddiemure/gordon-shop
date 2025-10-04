@@ -1,2 +1,1 @@
 # gordon-shop
-cool
